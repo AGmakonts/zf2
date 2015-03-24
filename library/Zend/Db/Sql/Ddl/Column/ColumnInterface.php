@@ -37,4 +37,9 @@ interface ColumnInterface extends ExpressionInterface
      * @return array
      */
     public function getOptions();
+
+    /**
+     * @return string
+     */
+    public function getType();
 }
